@@ -2,6 +2,7 @@
   background: rgb(115, 74, 168);
   display: flex;
   height: 100vh;
+  color: white;
 
   .left,
   .right {
@@ -11,7 +12,10 @@
   .left {
     background: #36393f;
     flex: 3;
+    align-items: center;
+    padding-top: 5%;
     border-right: 1px solid #282a2c;
+    flex-direction: column;
   }
 
   .right {
