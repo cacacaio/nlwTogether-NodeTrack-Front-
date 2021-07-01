@@ -1,0 +1,21 @@
+.main-tags {
+  background: rgb(115, 74, 168);
+  display: flex;
+  height: 100vh;
+
+  .left,
+  .right {
+    display: flex;
+  }
+
+  .left {
+    background: #36393f;
+    flex: 3;
+    border-right: 1px solid #282a2c;
+  }
+
+  .right {
+    background: rgb(115, 74, 168);
+    flex: 7;
+  }
+}

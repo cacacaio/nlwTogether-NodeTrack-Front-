@@ -1,0 +1,36 @@
+.main-login {
+  background: rgb(115, 74, 168);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+
+  .login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 35px;
+    color: white;
+
+    input {
+      height: 30px;
+      width: 70%;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  .image-login {
+    img {
+      width: 70vw;
+    }
+  }
+}
