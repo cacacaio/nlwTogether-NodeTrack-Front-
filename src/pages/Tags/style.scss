@@ -13,13 +13,61 @@
     background: #36393f;
     flex: 3;
     align-items: center;
-    padding-top: 5%;
+    padding: 3% 10px 0% 15px;
     border-right: 1px solid #282a2c;
     flex-direction: column;
+
+    .list-compliments {
+      list-style-type: none;
+      li {
+        border: 1px solid;
+        display: inline-block;
+        padding: 8px;
+        border-radius: 20px;
+      }
+      li:not(:last-child) {
+        margin-bottom: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border-radius: 10%;
+      margin-bottom: 10%;
+
+      img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 15px;
+      }
+    }
   }
 
   .right {
     background: rgb(115, 74, 168);
     flex: 7;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    .list-tags {
+      list-style-type: none;
+      border: 1px solid black;
+      padding: 20px;
+      background: white;
+      color: black;
+      text-align: center;
+      display: inline-block;
+      border-radius: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      &.outlined {
+        background: rgb(91, 91, 241);
+      }
+    }
   }
 }

@@ -8,4 +8,6 @@ interface Tag {
   name: string
   created_at: string
   updated_at: string
+  nameCustom?: string
+  isClicked?: boolean
 }
